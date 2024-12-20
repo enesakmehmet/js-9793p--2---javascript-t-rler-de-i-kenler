@@ -1,0 +1,55 @@
+body {
+    background-image: url(assets/space-sunrise-over-earth-desktop-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+section{
+    min-height:  100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.focus-body {
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.focus-body{
+    font-size: 60px;
+}
+
+.focus-body span {
+font-weight: 900;
+font-size: 30px;
+}
+
+.focus-body button {
+    background-color: transparent;
+    color: rgb(61, 218, 13);
+    border: 3px solid rgb(228, 15, 210);
+    padding: 15px 20px;
+    border-radius: 10%;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.focus-body button:hover{
+    background-color: rgb(255,255,255 0.1);
+}
+
+.focus-body input{
+    margin: 20px;
+}
+
+.icon-buttons {
+    margin-top:  100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 30px;
+}
